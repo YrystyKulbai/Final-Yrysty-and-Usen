@@ -18,6 +18,8 @@ const validatePassword = (password1, password2) => {
         return true;
    }
    else{
+        
+        alert("Құпия сөздер бірдей болуы тиіс!");
         return false;
    }
 }
@@ -29,6 +31,7 @@ const isValidPassword = (password1) => {
         return true;
     }
     else{
+        alert("Құпия сөз кемінде 8 таңбадан тұруы қажет !");
         return false;
     }
 }
